@@ -4,6 +4,6 @@ resource "aws_security_group_rule" "instance_from_lb" {
   from_port                = 80
   to_port                  = 80
   protocol                 = "tcp"
-  security_group_id        = aws_security_group.instance_sg.id
-  source_security_group_id = aws_security_group.sg.id
+  security_group_id        = aws_security_group.lb-sg.id
+  source_security_group_id = aws_security_group.ng_sg.id
 }

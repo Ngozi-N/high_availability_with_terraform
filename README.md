@@ -2,6 +2,5 @@
 
 my first jenkins deployment from Github
 
-Just edited for test
+I want to trigger Jenkins
 
-Trigger another
